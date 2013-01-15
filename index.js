@@ -57,4 +57,5 @@ yipit.deals = function(params,callback){
             return callback("500", null);
         }
     });
-}; //, add more functions dealing with different facets of the API
+};
+
