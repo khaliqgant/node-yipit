@@ -1,8 +1,10 @@
-# Yipit API
+# Yipit V1 API
 
-This hopefully makes it a little bit easier to call Yipit's API
+This hopefully makes it a little bit easier to call Yipit's V1 API
 
-## Example
+# Install #
+
+# Example #
 
 ```js
 var yipit = require("request");
@@ -20,5 +22,9 @@ yipit.deals(params, function (error, deals){
 });
 
 ```
+
+# References #
+- [Request API Key](http://yipit.com/about/api/)
+- [API Documentation](http://yipit.com/about/api/documentation/)
 
 **Hope you enjoy! Email me at khaliqgant@gmail.com for any questions or bugs
