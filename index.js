@@ -1,5 +1,6 @@
 var request = require('request');
 yipit = exports;
+var http = require('http');
 
 yipit.deals = function(params,callback){
     var url = 'http://api.yipit.com/v1/deals?';
@@ -31,9 +32,20 @@ yipit.deals = function(params,callback){
     if (params.limit != null){
         url += "&limit=" + params.limit;
     }
-    return request(url, function(error,response,body){
+
+    var options = {
+        hostname: url,
+        method:'GET'
+    };
+    var req = http.request(options, function(res){
+        console.log('STATUS: ' +res.statusCode);
+    })
+
+    return request.forever({uri:url, method:"GET"}, function(error,response,body){
         if (!error && response.statusCode == 200){
-            callback(null,JSON.parse(body));
+            //callback(null,response);
+            callback(null,url);
+            //callback(null,JSON.parse(body));
         }
         if (response.statusCode == 400){
             callback("400", null);
