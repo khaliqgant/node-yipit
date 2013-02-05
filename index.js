@@ -33,6 +33,7 @@ yipit.deals = function(params,callback){
     }
 
     return HTTPRequest.get(url, function (status,headers,content){
+        //need some type of error checking
         return callback(null,JSON.parse(content))
     });
 };
