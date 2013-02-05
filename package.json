@@ -1,7 +1,7 @@
 {
     "name": "yipit",
     "description": "Simple query for interfacing with Yipit's API",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "main": "index.js",
     "author":{
         "name": "Khaliq Gant",
@@ -14,6 +14,6 @@
     },
     "homepage": "https://github.com/khaliqgant/node-yipit",
     "dependencies":{
-        "request": "~2.11.1"
+        "HTTPRequest": "~0.1.1"
     }
 }
