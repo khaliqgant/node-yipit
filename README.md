@@ -26,6 +26,6 @@ yipit.deals(params, function (error, deals){
 # References #
 - [Request API Key](http://yipit.com/about/api/)
 - [API Documentation](http://yipit.com/about/api/documentation/)
-- [HTTPRequest Documentation] (https://github.com/keverw/HTTPRequest)
+- [HTTPRequest Documentation](https://github.com/keverw/HTTPRequest)
 
 **Hope you enjoy! Email me at khaliqgant@gmail.com for any questions or bugs

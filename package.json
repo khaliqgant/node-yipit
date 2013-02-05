@@ -1,7 +1,7 @@
 {
     "name": "yipit",
     "description": "Simple query for interfacing with Yipit's API",
-    "version": "0.1.3",
+    "version": "0.1.4",
     "main": "index.js",
     "author":{
         "name": "Khaliq Gant",
