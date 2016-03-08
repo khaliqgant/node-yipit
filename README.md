@@ -1,3 +1,5 @@
+[![NPM](https://nodei.co/npm/yipit.png)](https://nodei.co/npm/yipit/)
+
 # Yipit V1 API
 
 This hopefully makes it a little bit easier to call Yipit's V1 API
